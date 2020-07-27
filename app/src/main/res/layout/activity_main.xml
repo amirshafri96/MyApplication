@@ -30,4 +30,14 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_gravity="bottom|start"
+        app:srcCompat="@drawable/ic_house" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
